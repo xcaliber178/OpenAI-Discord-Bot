@@ -15,8 +15,8 @@ This repository contains a Discord chatbot powered by OpenAI's GPT-4 model. It a
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/aaronmansfield5/discord-gpt-4-chatbot.git
-cd discord-gpt-4-chatbot
+git clone https://github.com/xcaliber178/OpenAI-Discord-Bot.git
+cd OpenAI-Discord-Bot
 ```
 
 2. Install the required dependencies:
@@ -26,8 +26,11 @@ npm install discord.js dotenv openai
 
 3. Create a .env file in the project root directory and add your Discord bot token and OpenAI API key:
 ```makefile
-GPT_API_KEY=your_openai_api_key
-DISCORD_BOT_TOKEN=your_discord_bot_token
+GPT_MODEL="your_openai_model" #gpt-3.5-turbo
+GPT_API_KEY="your_openai_api_key"
+DISCORD_BOT_TOKEN="your_discord_bot_token"
+CLIENT_ID="your_discord_bot_app_id"
+
 ```
 Replace `your_openai_api_key` and `your_discord_bot_token` with your actual OpenAI API key and Discord bot token.
 
